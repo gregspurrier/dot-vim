@@ -1,0 +1,9 @@
+execute pathogen#infect()
+
+" Using vim-sensible takes care of most of the defaults. We only need
+" a few additions.
+set shiftwidth=2 softtabstop=2 expandtab
+
+set t_Co=256
+colorscheme wombat256
+let g:airline_theme='wombat'
