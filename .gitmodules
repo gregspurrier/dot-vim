@@ -22,3 +22,6 @@
 [submodule "bundle/vim-midje"]
 	path = bundle/vim-midje
 	url = git@github.com:gregspurrier/vim-midje.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
