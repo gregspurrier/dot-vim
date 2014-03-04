@@ -37,3 +37,6 @@
 [submodule "bundle/ShowTrailingWhitespace"]
 	path = bundle/ShowTrailingWhitespace
 	url = https://github.com/vim-scripts/ShowTrailingWhitespace.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
