@@ -4,6 +4,12 @@ execute pathogen#infect()
 " a few additions.
 set shiftwidth=2 softtabstop=2 expandtab
 
+" Colors
 set t_Co=256
 colorscheme wombat256
 let g:airline_theme='wombat'
+
+" Command line abbreviation for directory of current file
+" See http://vim.wikia.com/wiki/Easy_edit_of_files_in_the_same_directory
+cabbr <expr> %% expand('%:p:h')
+
