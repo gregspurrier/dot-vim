@@ -13,3 +13,4 @@ let g:airline_theme='wombat'
 " See http://vim.wikia.com/wiki/Easy_edit_of_files_in_the_same_directory
 cabbr <expr> %% expand('%:p:h')
 
+let g:ctrlp_custom_ignore = { 'dir': '[\/]target[\/]' }
