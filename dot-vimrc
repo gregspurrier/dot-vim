@@ -4,6 +4,10 @@ execute pathogen#infect()
 " a few additions.
 set shiftwidth=2 softtabstop=2 expandtab
 
+" Keep backup and swapfiles outside of the current directory
+set backupdir=/tmp//
+set directory=/tmp//
+
 " Colors
 set t_Co=256
 colorscheme wombat256
