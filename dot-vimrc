@@ -3,6 +3,7 @@ execute pathogen#infect()
 " Using vim-sensible takes care of most of the defaults. We only need
 " a few additions.
 set shiftwidth=2 softtabstop=2 expandtab
+let mapleader=","
 
 " Keep backup and swapfiles outside of the current directory
 set backupdir=/tmp//
