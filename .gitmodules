@@ -55,3 +55,6 @@
 [submodule "bundle/vim-textobj-variable-segment"]
 	path = bundle/vim-textobj-variable-segment
 	url = https://github.com/Julian/vim-textobj-variable-segment.git
+[submodule "bundle/Align"]
+	path = bundle/Align
+	url = https://github.com/vim-scripts/Align.git
